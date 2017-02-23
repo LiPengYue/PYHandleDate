@@ -16,12 +16,10 @@
 **1. NSObject对象 参数**
 >1. `NSString`   你可以传一个字符串，但是这个字符串必须是以下两种类型
 >
-| NSString              |dateFormatter            |  
-| :-------- :           | :--------:              |
-| @"2017-9-29 0:0:00”   | @"yyyy-MM-dd HH:mm:ss”  |
-| @“2017 : 2 : 2”       | @“yyyy : MM : dd”       |
-| @“123456”             | @"yyyy-MM-dd HH:mm:ss”  |
-|@“2017年12月12日”      |@“yyyy年MM月dd日”         |
+| NSString ： @"2017-9-29 0:0:00”  dateFormatter ：@"yyyy-MM-dd HH:mm:ss”|  
+| NSString：@“2017 : 2 : 2”   dateFormatter：@“yyyy : MM : dd”       |
+| NSString：@“123456”         dateFormatter： @"yyyy-MM-dd HH:mm:ss”  |
+| NSString：@“2017年12月12日”   |dateFormatter：@“yyyy年MM月dd日”  |
 |注意传入的分隔符一定要与DateFormatte的分隔符一至|
 2.`NSNumber` （这个没有要求传入@(1231234) dateFormatte可以是任意）
 
